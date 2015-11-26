@@ -1,0 +1,114 @@
+#background {
+  z-index:1;
+  background-image:url('maxresdefault.jpg');
+  position:absolute;
+  overflow:hidden;
+  width:100%;
+  height:100%;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+#description {
+  color: white;
+}
+/*#galaxy {
+  position:relative;
+  width:100%;
+  height:100%;
+}
+
+.position {
+  position:absolute;
+  top:50%;
+  width:2em;
+  height:2em;
+  margin-top: -1em;
+  margin-left: -1em;
+}
+*/
+#sun{
+background-image:url('https://www.nasa.gov/sites/default/files/706436main_20121114-304-193blend_m6-orig_full.jpg');
+width:20em;
+height:20em;
+z-index:1; 
+float:left;
+background-size:cover;
+border-radius:100%;
+box-shadow: 60 60 60px rgba(32,32,32.0.4);
+}
+#mercury {
+background-image:url('https://upload.wikimedia.org/wikipedia/commons/3/3f/Mercury_Globe-MESSENGER_mosaic_centered_at_0degN-0degE.jpg');
+background-size:cover;
+border-radius:100%;
+float:left;
+height:2em;
+width:2em;
+z-index:-1;
+}
+
+#venus {
+background-image:url('https://upload.wikimedia.org/wikipedia/commons/8/85/Venus_globe.jpg');
+background-size:cover;
+height:4em;
+width:4em;
+border-radius:100%;
+float:left;
+}
+
+#earth {
+background-image:url(' https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg');
+background-size:cover;
+border-radius:100%;
+height:5em;
+width:5em;
+float:left;
+}
+#moon {
+background-image:url('https://upload.wikimedia.org/wikipedia/commons/e/e1/FullMoon2010.jpg');
+background-size:cover;
+}
+#mars {
+background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Mars_23_aug_2003_hubble.jpg/275px-Mars_23_aug_2003_hubble.jpg');
+background-size:cover;
+border-radius:100%;
+height:3em;
+width:3em;
+float:left;
+}
+
+#jupiter {
+background-image:url('https://upload.wikimedia.org/wikipedia/commons/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg');
+background-size:cover;
+border-radius:100%;
+height:12em;
+width:12em;
+float:left;
+}
+#saturn {
+background-image:url('http://i.kinja-img.com/gawker-media/image/upload/s--bl6IHX97--/1301446009112695985.jpg');
+background-size:cover;
+height:10em;
+width:10em;
+float:left;
+margin-top:30px;
+
+}
+
+#uranus {
+background-image:url('http://d1jqu7g1y74ds1.cloudfront.net/wp-content/uploads/2010/06/Hubbles-Uranus-580x450.jpg');
+background-size:cover;
+border-radius:100%;
+height:8.5em;
+width:8.5em;
+float:left;
+}
+
+#neptune {
+background-image:url('https://upload.wikimedia.org/wikipedia/commons/5/56/Neptune_Full.jpg');
+background-size:cover;
+border-radius:100%;
+height:8.5em;
+width:8.5em;
+float:right;
+}
